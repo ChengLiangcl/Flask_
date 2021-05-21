@@ -43,6 +43,7 @@ def connect_upload():
     print("-------------------------------------")
     print("get file: ", request.files)
     print("-------------------------------------")
+    print('goooooooooood')
     #get model
     model = request.files['model']
     model_name = request.files['model'].filename
