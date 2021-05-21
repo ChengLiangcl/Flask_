@@ -1,0 +1,44 @@
+[
+  {
+    "_id": {
+      "$oid": "60a3c6c6e1566b41cf7afb90"
+    },
+    "FileName": "ex_fts (2).txt",
+    "BriefInfo": "",
+    "Size": "13.42KB",
+    "Description": "",
+    "Source": "",
+    "Number_of_Attribute": 6,
+    "Number_of_Instance": 246,
+    "Keywords": [],
+    "AttrInfo": [
+      {
+        "attrName": "",
+        "attrDescription": ""
+      }
+    ],
+    "UserName": "123@gmail.com",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a3c6b0e1566b41cf7afb8f"
+    },
+    "FileName": "ex_fts.dat",
+    "BriefInfo": "",
+    "Size": "13.532KB",
+    "Description": "",
+    "Source": "",
+    "Number_of_Attribute": 6,
+    "Number_of_Instance": 246,
+    "Keywords": [],
+    "AttrInfo": [
+      {
+        "attrName": "",
+        "attrDescription": ""
+      }
+    ],
+    "UserName": "123@gmail.com",
+    "copy": 0
+  }
+]

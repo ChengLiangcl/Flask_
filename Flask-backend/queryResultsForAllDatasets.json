@@ -1,0 +1,20 @@
+[
+    {
+      "_id": {
+        "$oid": "606702b2b1e51ef27782dcf5"
+      },
+      "FileName": "copy(1)_ex_ndy.dat",
+      "BriefInfo": "This is the querying result",
+      "Size": "193.9KB",
+      "UserName": "17888813173@163.com"
+    },
+    {
+      "_id": {
+        "$oid": "606702ccb1e51ef27782dcf6"
+      },
+      "FileName": "ex_fts.dat",
+      "BriefInfo": "This is the querying result",
+      "Size": "193.9KB",
+      "UserName": "123@gmail.com"
+    }
+  ]

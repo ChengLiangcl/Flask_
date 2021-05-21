@@ -1,0 +1,164 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  border: solid #F2F2F2;
+  border-top: 1px;
+  border-left: 1px;
+  border-bottom: 1px;
+}
+
+.main-page{
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+.side-group{
+  position: absolute;
+  top: 10%;
+  padding: 3%;
+  height: 100vh;
+}
+
+.side-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+
+.logo{
+  width: 70%;
+  padding-bottom: 25%;
+}
+
+.logo-position{
+  position: absolute;
+  top: 7%;
+  left: 15%;
+}
+
+.slide-icon{
+  color: grey;
+  padding-right: 5%; 
+}
+
+.nav-link{
+  color: grey;
+}
+
+.search-box{
+  display: flex;
+  justify-content: center; /* y-axis */
+  align-items: center; /* x-axis */
+  height: 17vh;
+}
+ 
+.database{
+  height: 75vh;
+  overflow: auto;
+}
+
+thead{
+  background-color: #DEEBF7;
+  color: #378CC6;
+}
+
+/*upload button
+input[type="file"] {
+  display: none;
+  opacity: 0;
+}*/
+
+.file-upload{
+  display: none;
+  
+}
+
+label{
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/*detailed metadata*/
+.detailed-metadata{
+  display: flex;
+  height: 35vh;
+  overflow: auto;
+}
+
+.detailed-database{
+  height: 65vh;
+  overflow: auto;
+}
+
+/*metadata title*/
+.metadata-info{
+  overflow: auto;
+}
+.metadata-title{
+  display: flex;
+  align-items: center;
+  height: 12vh;
+}
+
+.title{
+  padding-left: 5%;
+}
+
+.submit-button{
+  padding-right: 5%;
+}
+
+h4, h5 {
+  color: #378CC6;
+}
+
+
+.submit-btt:hover {
+  background-color: #094b77;
+  color: white;
+}
+
+label{
+  color:#378CC6;
+}
+
+.attribute{
+  color:grey
+}
+
+.nodisplay{
+  display: none;
+  opacity: 0;
+}
+
+.title{
+  flex-grow: 1;
+  color: #378CC6
+}
+
+.hide{
+  display: 'none',
+}
+
+.umatrix-nav{
+  display: flex;
+  justify-content: center; /* y-axis */
+  align-items: center; /* x-axis */
+  height: 10vh;
+  background-color: bisque;
+}
+ 
+.umatrix{
+  height: 90vh;
+  overflow: auto;
+}

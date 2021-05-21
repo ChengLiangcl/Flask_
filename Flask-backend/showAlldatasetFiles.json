@@ -1,0 +1,72 @@
+[
+  {
+    "_id": {
+      "$oid": "60a3c6b0e1566b41cf7afb8f"
+    },
+    "FileName": "ex_fts.dat",
+    "BriefInfo": "",
+    "Size": "13.532KB",
+    "Description": "",
+    "Source": "",
+    "Number_of_Attribute": 6,
+    "Number_of_Instance": 246,
+    "UserName": "123@gmail.com",
+    "ModelName": ""
+  },
+  {
+    "_id": {
+      "$oid": "60a3c6c6e1566b41cf7afb90"
+    },
+    "FileName": "ex_fts (2).txt",
+    "BriefInfo": "",
+    "Size": "13.42KB",
+    "Description": "",
+    "Source": "",
+    "Number_of_Attribute": 6,
+    "Number_of_Instance": 246,
+    "UserName": "123@gmail.com",
+    "ModelName": ""
+  },
+  {
+    "_id": {
+      "$oid": "60a4b2a618d3430ec37d8f13"
+    },
+    "FileName": "ex_fts (3).txt",
+    "BriefInfo": "",
+    "Size": "13.42KB",
+    "Description": "",
+    "Source": "",
+    "Number_of_Attribute": 6,
+    "Number_of_Instance": 246,
+    "UserName": "123@gmail.com",
+    "ModelName": ""
+  },
+  {
+    "_id": {
+      "$oid": "60a4b2de18d3430ec37d8f14"
+    },
+    "FileName": "ex_fts (1).dat",
+    "BriefInfo": "",
+    "Size": "13.42KB",
+    "Description": "",
+    "Source": "",
+    "Number_of_Attribute": 6,
+    "Number_of_Instance": 246,
+    "UserName": "123@gmail.com",
+    "ModelName": ""
+  },
+  {
+    "_id": {
+      "$oid": "60a4b30d18d3430ec37d8f15"
+    },
+    "FileName": "ex_fts (11).csv",
+    "BriefInfo": "",
+    "Size": "13.667KB",
+    "Description": "",
+    "Source": "",
+    "Number_of_Attribute": 6,
+    "Number_of_Instance": 246,
+    "UserName": "123@gmail.com",
+    "ModelName": ""
+  }
+]

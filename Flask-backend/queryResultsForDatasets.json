@@ -1,0 +1,698 @@
+[
+  {
+    "uuid": "2aacb97e3a02439c8ced186ca5d8f6cd",
+    "FileName": "ex_ndy.dat",
+    "BriefInfo": "Amazon DocumentDB is a non-relational database service designed from the ground-up",
+    "Size": "4.93KB",
+    "Description": "Amazon DocumentDB is a non-relational database service designed from the ground-up",
+    "Source": "1",
+    "Number_of_Attribute": 5,
+    "Number_of_Instance": 96,
+    "Keywords": [
+      "keyword1",
+      "keyword2"
+    ],
+    "AttrInfo": [
+      {
+        "attrName": "1",
+        "attrDescription": "1"
+      }
+    ],
+    "UserName": "123456@qq.com",
+    "data": [
+      {
+        "Coloumn 0": 17.193922,
+        "Coloumn 1": 21.496441,
+        "Coloumn 2": -4.047062,
+        "Coloumn 3": -8.095073,
+        "Coloumn 4": 403.402618
+      },
+      {
+        "Coloumn 0": 16.861963,
+        "Coloumn 1": 21.067974,
+        "Coloumn 2": -4.04231,
+        "Coloumn 3": -8.237827,
+        "Coloumn 4": 402.641083
+      },
+      {
+        "Coloumn 0": 16.486231,
+        "Coloumn 1": 20.760134,
+        "Coloumn 2": -3.997258,
+        "Coloumn 3": -8.172029,
+        "Coloumn 4": 402.056519
+      },
+      {
+        "Coloumn 0": 16.178122,
+        "Coloumn 1": 20.217403,
+        "Coloumn 2": -4.040308,
+        "Coloumn 3": -8.05302,
+        "Coloumn 4": 403.584961
+      },
+      {
+        "Coloumn 0": 15.961885,
+        "Coloumn 1": 19.63418,
+        "Coloumn 2": -4.036076,
+        "Coloumn 3": -8.327558,
+        "Coloumn 4": 403.087708
+      },
+      {
+        "Coloumn 0": 15.609796,
+        "Coloumn 1": 19.149624,
+        "Coloumn 2": -4.025039,
+        "Coloumn 3": -8.411956,
+        "Coloumn 4": 402.798096
+      },
+      {
+        "Coloumn 0": 15.510288,
+        "Coloumn 1": 18.659582,
+        "Coloumn 2": -4.02354,
+        "Coloumn 3": -8.280308,
+        "Coloumn 4": 402.395905
+      },
+      {
+        "Coloumn 0": 15.735284,
+        "Coloumn 1": 18.906588,
+        "Coloumn 2": -3.996178,
+        "Coloumn 3": -8.29775,
+        "Coloumn 4": 404.162537
+      },
+      {
+        "Coloumn 0": 15.847918,
+        "Coloumn 1": 19.537773,
+        "Coloumn 2": -3.950229,
+        "Coloumn 3": -8.461897,
+        "Coloumn 4": 404.158386
+      },
+      {
+        "Coloumn 0": 16.078579,
+        "Coloumn 1": 20.05575,
+        "Coloumn 2": -3.951967,
+        "Coloumn 3": -8.337437,
+        "Coloumn 4": 401.13208
+      },
+      {
+        "Coloumn 0": 16.496639,
+        "Coloumn 1": 21.101477,
+        "Coloumn 2": -3.925838,
+        "Coloumn 3": -8.038387,
+        "Coloumn 4": 400.769165
+      },
+      {
+        "Coloumn 0": 17.200296,
+        "Coloumn 1": 22.89645,
+        "Coloumn 2": -3.927398,
+        "Coloumn 3": -7.995959,
+        "Coloumn 4": 400.718475
+      },
+      {
+        "Coloumn 0": 18.193167,
+        "Coloumn 1": 24.479782,
+        "Coloumn 2": -3.943382,
+        "Coloumn 3": -8.210506,
+        "Coloumn 4": 400.849426
+      },
+      {
+        "Coloumn 0": 18.80513,
+        "Coloumn 1": 25.709757,
+        "Coloumn 2": -3.915584,
+        "Coloumn 3": -7.811796,
+        "Coloumn 4": 402.861694
+      },
+      {
+        "Coloumn 0": 19.285975,
+        "Coloumn 1": 26.671717,
+        "Coloumn 2": -3.924492,
+        "Coloumn 3": -8.015,
+        "Coloumn 4": 403.484589
+      },
+      {
+        "Coloumn 0": 19.783154,
+        "Coloumn 1": 27.453648,
+        "Coloumn 2": -3.944639,
+        "Coloumn 3": -8.056203,
+        "Coloumn 4": 403.752075
+      },
+      {
+        "Coloumn 0": 20.322981,
+        "Coloumn 1": 28.196226,
+        "Coloumn 2": -3.911752,
+        "Coloumn 3": -8.259612,
+        "Coloumn 4": 404.004028
+      },
+      {
+        "Coloumn 0": 20.689329,
+        "Coloumn 1": 28.80768,
+        "Coloumn 2": -3.941968,
+        "Coloumn 3": -8.375096,
+        "Coloumn 4": 404.012024
+      },
+      {
+        "Coloumn 0": 20.971685,
+        "Coloumn 1": 29.609903,
+        "Coloumn 2": -3.89322,
+        "Coloumn 3": -8.251692,
+        "Coloumn 4": 403.967346
+      },
+      {
+        "Coloumn 0": 21.230301,
+        "Coloumn 1": 30.144936,
+        "Coloumn 2": -3.896518,
+        "Coloumn 3": -8.209136,
+        "Coloumn 4": 403.626129
+      },
+      {
+        "Coloumn 0": 21.569155,
+        "Coloumn 1": 30.801945,
+        "Coloumn 2": -3.914971,
+        "Coloumn 3": -7.967682,
+        "Coloumn 4": 403.203522
+      },
+      {
+        "Coloumn 0": 21.717394,
+        "Coloumn 1": 31.435423,
+        "Coloumn 2": -3.899624,
+        "Coloumn 3": -7.813005,
+        "Coloumn 4": 404.658081
+      },
+      {
+        "Coloumn 0": 21.925112,
+        "Coloumn 1": 32.001583,
+        "Coloumn 2": -3.908498,
+        "Coloumn 3": -7.771836,
+        "Coloumn 4": 404.964935
+      },
+      {
+        "Coloumn 0": 22.567247,
+        "Coloumn 1": 32.51889,
+        "Coloumn 2": -3.902462,
+        "Coloumn 3": -7.635759,
+        "Coloumn 4": 404.249603
+      },
+      {
+        "Coloumn 0": 23.035429,
+        "Coloumn 1": 33.178452,
+        "Coloumn 2": -3.924935,
+        "Coloumn 3": -7.100631,
+        "Coloumn 4": 404.421967
+      },
+      {
+        "Coloumn 0": 23.124239,
+        "Coloumn 1": 33.624496,
+        "Coloumn 2": -3.958235,
+        "Coloumn 3": -7.148154,
+        "Coloumn 4": 404.371552
+      },
+      {
+        "Coloumn 0": 23.286121,
+        "Coloumn 1": 34.246082,
+        "Coloumn 2": -3.908941,
+        "Coloumn 3": -6.96716,
+        "Coloumn 4": 404.119904
+      },
+      {
+        "Coloumn 0": 23.813192,
+        "Coloumn 1": 34.784924,
+        "Coloumn 2": -3.897887,
+        "Coloumn 3": -7.263314,
+        "Coloumn 4": 404.642303
+      },
+      {
+        "Coloumn 0": 23.872307,
+        "Coloumn 1": 35.276604,
+        "Coloumn 2": -3.931051,
+        "Coloumn 3": -7.112995,
+        "Coloumn 4": 404.719482
+      },
+      {
+        "Coloumn 0": 24.250347,
+        "Coloumn 1": 35.808559,
+        "Coloumn 2": -3.926741,
+        "Coloumn 3": -6.621696,
+        "Coloumn 4": 404.135986
+      },
+      {
+        "Coloumn 0": 24.841803,
+        "Coloumn 1": 36.344353,
+        "Coloumn 2": -3.911241,
+        "Coloumn 3": -5.814822,
+        "Coloumn 4": 404.162659
+      },
+      {
+        "Coloumn 0": 25.05584,
+        "Coloumn 1": 36.854885,
+        "Coloumn 2": -3.946056,
+        "Coloumn 3": -5.793361,
+        "Coloumn 4": 404.895294
+      },
+      {
+        "Coloumn 0": 25.870993,
+        "Coloumn 1": 37.413525,
+        "Coloumn 2": -3.918154,
+        "Coloumn 3": -5.879462,
+        "Coloumn 4": 403.93634
+      },
+      {
+        "Coloumn 0": 26.094908,
+        "Coloumn 1": 37.60107,
+        "Coloumn 2": -3.96607,
+        "Coloumn 3": -5.646604,
+        "Coloumn 4": 403.472351
+      },
+      {
+        "Coloumn 0": 26.236231,
+        "Coloumn 1": 38.161915,
+        "Coloumn 2": -3.934729,
+        "Coloumn 3": -5.954255,
+        "Coloumn 4": 402.251923
+      },
+      {
+        "Coloumn 0": 26.525419,
+        "Coloumn 1": 38.338123,
+        "Coloumn 2": -4.006745,
+        "Coloumn 3": -6.028928,
+        "Coloumn 4": 402.90506
+      },
+      {
+        "Coloumn 0": 26.241766,
+        "Coloumn 1": 39.003147,
+        "Coloumn 2": -3.908338,
+        "Coloumn 3": -5.771164,
+        "Coloumn 4": 403.470734
+      },
+      {
+        "Coloumn 0": 26.343506,
+        "Coloumn 1": 38.986946,
+        "Coloumn 2": -3.932822,
+        "Coloumn 3": -6.809826,
+        "Coloumn 4": 403.768341
+      },
+      {
+        "Coloumn 0": 26.53937,
+        "Coloumn 1": 39.142902,
+        "Coloumn 2": -3.920047,
+        "Coloumn 3": -7.245975,
+        "Coloumn 4": 403.457001
+      },
+      {
+        "Coloumn 0": 26.144594,
+        "Coloumn 1": 39.232529,
+        "Coloumn 2": -3.942105,
+        "Coloumn 3": -7.61951,
+        "Coloumn 4": 403.030792
+      },
+      {
+        "Coloumn 0": 26.191675,
+        "Coloumn 1": 39.591797,
+        "Coloumn 2": -3.933493,
+        "Coloumn 3": -7.263824,
+        "Coloumn 4": 402.941193
+      },
+      {
+        "Coloumn 0": 26.665192,
+        "Coloumn 1": 40.02261,
+        "Coloumn 2": -3.930727,
+        "Coloumn 3": -7.261577,
+        "Coloumn 4": 402.873016
+      },
+      {
+        "Coloumn 0": 27.074923,
+        "Coloumn 1": 40.438572,
+        "Coloumn 2": -3.935615,
+        "Coloumn 3": -6.259573,
+        "Coloumn 4": 402.039734
+      },
+      {
+        "Coloumn 0": 27.221815,
+        "Coloumn 1": 40.816978,
+        "Coloumn 2": -3.937097,
+        "Coloumn 3": -6.241398,
+        "Coloumn 4": 401.488251
+      },
+      {
+        "Coloumn 0": 27.519733,
+        "Coloumn 1": 41.219086,
+        "Coloumn 2": -3.92531,
+        "Coloumn 3": -5.935462,
+        "Coloumn 4": 400.988159
+      },
+      {
+        "Coloumn 0": 27.705572,
+        "Coloumn 1": 41.483891,
+        "Coloumn 2": -3.884771,
+        "Coloumn 3": -7.71774,
+        "Coloumn 4": 401.198578
+      },
+      {
+        "Coloumn 0": 27.739758,
+        "Coloumn 1": 41.676365,
+        "Coloumn 2": -3.863957,
+        "Coloumn 3": -7.822765,
+        "Coloumn 4": 401.922821
+      },
+      {
+        "Coloumn 0": 27.424322,
+        "Coloumn 1": 41.953884,
+        "Coloumn 2": -3.827268,
+        "Coloumn 3": -8.025425,
+        "Coloumn 4": 402.68161
+      },
+      {
+        "Coloumn 0": 27.628923,
+        "Coloumn 1": 42.240673,
+        "Coloumn 2": -3.832402,
+        "Coloumn 3": -8.154869,
+        "Coloumn 4": 403.27533
+      },
+      {
+        "Coloumn 0": 27.767862,
+        "Coloumn 1": 42.405945,
+        "Coloumn 2": -3.843194,
+        "Coloumn 3": -8.639007,
+        "Coloumn 4": 404.158569
+      },
+      {
+        "Coloumn 0": 28.072685,
+        "Coloumn 1": 42.659206,
+        "Coloumn 2": -3.840264,
+        "Coloumn 3": -8.83453,
+        "Coloumn 4": 404.303314
+      },
+      {
+        "Coloumn 0": 28.036491,
+        "Coloumn 1": 42.804672,
+        "Coloumn 2": -3.834711,
+        "Coloumn 3": -8.541952,
+        "Coloumn 4": 404.319397
+      },
+      {
+        "Coloumn 0": 28.002895,
+        "Coloumn 1": 43.028656,
+        "Coloumn 2": -3.859021,
+        "Coloumn 3": -7.776721,
+        "Coloumn 4": 404.512299
+      },
+      {
+        "Coloumn 0": 27.676497,
+        "Coloumn 1": 43.308594,
+        "Coloumn 2": -3.886509,
+        "Coloumn 3": -8.60506,
+        "Coloumn 4": 404.652557
+      },
+      {
+        "Coloumn 0": 27.889137,
+        "Coloumn 1": 43.485092,
+        "Coloumn 2": -3.891176,
+        "Coloumn 3": -8.593631,
+        "Coloumn 4": 404.519348
+      },
+      {
+        "Coloumn 0": 28.004469,
+        "Coloumn 1": 43.646069,
+        "Coloumn 2": -3.909401,
+        "Coloumn 3": -8.775783,
+        "Coloumn 4": 404.230743
+      },
+      {
+        "Coloumn 0": 28.401321,
+        "Coloumn 1": 43.765762,
+        "Coloumn 2": -3.905075,
+        "Coloumn 3": -8.930528,
+        "Coloumn 4": 403.813049
+      },
+      {
+        "Coloumn 0": 28.223598,
+        "Coloumn 1": 43.89098,
+        "Coloumn 2": -3.933307,
+        "Coloumn 3": -8.675209,
+        "Coloumn 4": 403.854675
+      },
+      {
+        "Coloumn 0": 27.929693,
+        "Coloumn 1": 43.895535,
+        "Coloumn 2": -3.89586,
+        "Coloumn 3": -9.04126,
+        "Coloumn 4": 404.073486
+      },
+      {
+        "Coloumn 0": 27.670927,
+        "Coloumn 1": 43.091644,
+        "Coloumn 2": -3.931902,
+        "Coloumn 3": -8.768595,
+        "Coloumn 4": 403.999786
+      },
+      {
+        "Coloumn 0": 26.700144,
+        "Coloumn 1": 42.115105,
+        "Coloumn 2": -3.921341,
+        "Coloumn 3": -8.776549,
+        "Coloumn 4": 404.699585
+      },
+      {
+        "Coloumn 0": 26.022747,
+        "Coloumn 1": 41.033707,
+        "Coloumn 2": -3.937803,
+        "Coloumn 3": -9.650441,
+        "Coloumn 4": 404.895111
+      },
+      {
+        "Coloumn 0": 25.512598,
+        "Coloumn 1": 40.215389,
+        "Coloumn 2": -3.967263,
+        "Coloumn 3": -9.468721,
+        "Coloumn 4": 404.998779
+      },
+      {
+        "Coloumn 0": 25.218914,
+        "Coloumn 1": 39.479355,
+        "Coloumn 2": -3.948441,
+        "Coloumn 3": -10.334785,
+        "Coloumn 4": 405.530029
+      },
+      {
+        "Coloumn 0": 24.94986,
+        "Coloumn 1": 38.878326,
+        "Coloumn 2": -3.958865,
+        "Coloumn 3": -9.613962,
+        "Coloumn 4": 405.788513
+      },
+      {
+        "Coloumn 0": 24.435108,
+        "Coloumn 1": 38.473953,
+        "Coloumn 2": -3.956627,
+        "Coloumn 3": -10.194083,
+        "Coloumn 4": 404.082794
+      },
+      {
+        "Coloumn 0": 24.148317,
+        "Coloumn 1": 37.996082,
+        "Coloumn 2": -3.971504,
+        "Coloumn 3": -10.299254,
+        "Coloumn 4": 402.077667
+      },
+      {
+        "Coloumn 0": 24.176321,
+        "Coloumn 1": 37.209393,
+        "Coloumn 2": -3.992437,
+        "Coloumn 3": -10.82021,
+        "Coloumn 4": 402.884399
+      },
+      {
+        "Coloumn 0": 23.300838,
+        "Coloumn 1": 36.225563,
+        "Coloumn 2": -3.987634,
+        "Coloumn 3": -11.094817,
+        "Coloumn 4": 403.597351
+      },
+      {
+        "Coloumn 0": 22.719189,
+        "Coloumn 1": 35.01857,
+        "Coloumn 2": -4.012241,
+        "Coloumn 3": -10.992861,
+        "Coloumn 4": 403.738678
+      },
+      {
+        "Coloumn 0": 22.041191,
+        "Coloumn 1": 33.946129,
+        "Coloumn 2": -4.045121,
+        "Coloumn 3": -11.533334,
+        "Coloumn 4": 403.664978
+      },
+      {
+        "Coloumn 0": 21.211477,
+        "Coloumn 1": 33.048931,
+        "Coloumn 2": -4.064572,
+        "Coloumn 3": -11.576649,
+        "Coloumn 4": 404.697754
+      },
+      {
+        "Coloumn 0": 20.686331,
+        "Coloumn 1": 32.381592,
+        "Coloumn 2": -4.011821,
+        "Coloumn 3": -11.009686,
+        "Coloumn 4": 404.92157
+      },
+      {
+        "Coloumn 0": 20.477978,
+        "Coloumn 1": 31.646114,
+        "Coloumn 2": -4.065598,
+        "Coloumn 3": -10.709085,
+        "Coloumn 4": 404.910614
+      },
+      {
+        "Coloumn 0": 20.065559,
+        "Coloumn 1": 30.894043,
+        "Coloumn 2": -4.077024,
+        "Coloumn 3": -11.506694,
+        "Coloumn 4": 404.860748
+      },
+      {
+        "Coloumn 0": 19.494255,
+        "Coloumn 1": 30.248388,
+        "Coloumn 2": -4.037575,
+        "Coloumn 3": -11.661763,
+        "Coloumn 4": 405.389252
+      },
+      {
+        "Coloumn 0": 19.002562,
+        "Coloumn 1": 29.552757,
+        "Coloumn 2": -4.064521,
+        "Coloumn 3": -12.674021,
+        "Coloumn 4": 405.726349
+      },
+      {
+        "Coloumn 0": 18.447704,
+        "Coloumn 1": 28.894835,
+        "Coloumn 2": -4.067989,
+        "Coloumn 3": -13.054822,
+        "Coloumn 4": 405.922424
+      },
+      {
+        "Coloumn 0": 17.89267,
+        "Coloumn 1": 28.278923,
+        "Coloumn 2": -4.064317,
+        "Coloumn 3": -12.900067,
+        "Coloumn 4": 406.18219
+      },
+      {
+        "Coloumn 0": 17.51462,
+        "Coloumn 1": 27.685644,
+        "Coloumn 2": -4.113781,
+        "Coloumn 3": -12.089259,
+        "Coloumn 4": 405.884674
+      },
+      {
+        "Coloumn 0": 17.196154,
+        "Coloumn 1": 27.187426,
+        "Coloumn 2": -4.073379,
+        "Coloumn 3": -12.487918,
+        "Coloumn 4": 406.063629
+      },
+      {
+        "Coloumn 0": 17.171556,
+        "Coloumn 1": 26.64879,
+        "Coloumn 2": -4.120628,
+        "Coloumn 3": -11.597003,
+        "Coloumn 4": 406.023712
+      },
+      {
+        "Coloumn 0": 16.998922,
+        "Coloumn 1": 26.146938,
+        "Coloumn 2": -4.119646,
+        "Coloumn 3": -11.456812,
+        "Coloumn 4": 406.028015
+      },
+      {
+        "Coloumn 0": 16.423414,
+        "Coloumn 1": 25.502583,
+        "Coloumn 2": -4.120219,
+        "Coloumn 3": -11.558849,
+        "Coloumn 4": 406.627167
+      },
+      {
+        "Coloumn 0": 17.298845,
+        "Coloumn 1": 24.916613,
+        "Coloumn 2": -4.167213,
+        "Coloumn 3": -11.824309,
+        "Coloumn 4": 406.543915
+      },
+      {
+        "Coloumn 0": 18.034742,
+        "Coloumn 1": 24.552786,
+        "Coloumn 2": -4.13962,
+        "Coloumn 3": -11.791112,
+        "Coloumn 4": 406.355927
+      },
+      {
+        "Coloumn 0": 17.81213,
+        "Coloumn 1": 24.196795,
+        "Coloumn 2": -4.133216,
+        "Coloumn 3": -11.393959,
+        "Coloumn 4": 406.325958
+      },
+      {
+        "Coloumn 0": 17.837448,
+        "Coloumn 1": 23.871275,
+        "Coloumn 2": -4.071879,
+        "Coloumn 3": -11.488656,
+        "Coloumn 4": 406.630737
+      },
+      {
+        "Coloumn 0": 17.170858,
+        "Coloumn 1": 23.597536,
+        "Coloumn 2": -4.057078,
+        "Coloumn 3": -11.424254,
+        "Coloumn 4": 406.651245
+      },
+      {
+        "Coloumn 0": 17.283192,
+        "Coloumn 1": 23.268629,
+        "Coloumn 2": -4.053399,
+        "Coloumn 3": -11.22696,
+        "Coloumn 4": 406.679108
+      },
+      {
+        "Coloumn 0": 17.29467,
+        "Coloumn 1": 22.929266,
+        "Coloumn 2": -4.032311,
+        "Coloumn 3": -10.973448,
+        "Coloumn 4": 406.791229
+      },
+      {
+        "Coloumn 0": 16.928564,
+        "Coloumn 1": 22.658062,
+        "Coloumn 2": -4.008176,
+        "Coloumn 3": -10.699803,
+        "Coloumn 4": 406.91806
+      },
+      {
+        "Coloumn 0": 14.967529,
+        "Coloumn 1": 22.285753,
+        "Coloumn 2": -4.051457,
+        "Coloumn 3": -12.263337,
+        "Coloumn 4": 407.181244
+      },
+      {
+        "Coloumn 0": 13.213073,
+        "Coloumn 1": 21.898745,
+        "Coloumn 2": -4.038989,
+        "Coloumn 3": -12.282244,
+        "Coloumn 4": 406.832977
+      },
+      {
+        "Coloumn 0": 14.451357,
+        "Coloumn 1": 21.554384,
+        "Coloumn 2": -4.096478,
+        "Coloumn 3": -10.864359,
+        "Coloumn 4": 406.364777
+      },
+      {
+        "Coloumn 0": 15.683088,
+        "Coloumn 1": 21.293032,
+        "Coloumn 2": -4.174572,
+        "Coloumn 3": -10.746798,
+        "Coloumn 4": 406.521759
+      }
+    ],
+    "copy": 0
+  }
+]
