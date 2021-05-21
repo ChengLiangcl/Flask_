@@ -36,7 +36,7 @@ class Testapp(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.text, 'username already exist')
         response = requests.post(url=url, data=json.dumps(data2))
-        self.assertEqual(response.text, 'Add Successfully')
+        self.assertEqual(response.text, 'Add Sucessfully')
 
 
 if __name__ == '__main__':
