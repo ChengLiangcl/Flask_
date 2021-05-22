@@ -24,10 +24,14 @@ jobs:
       - name: Run server
         run: |
            cd Flask-backend
-           nohup python3 app.py
-           sleep
+           ./run
+  notify:
+    needs: build
+    runs-on: ubuntu-latest
 
-      - name: Run Unit test
-        run: |
-           pytest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run the unit testing
+        run: pytest
        
