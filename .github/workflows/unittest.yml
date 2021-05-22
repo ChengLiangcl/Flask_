@@ -21,9 +21,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirement.txt
           
-      - name: Run tests with pytest
+      - name: Run server
         run: |
            cd Flask-backend
            nohup python3 app.py
-           sleep
-           pytest 
+
+      - name: Run Unit test
+        run: |
+           pytest
+       
