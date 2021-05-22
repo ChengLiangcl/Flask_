@@ -25,6 +25,7 @@ jobs:
         run: |
            cd Flask-backend
            nohup python3 app.py
+           sleep
 
       - name: Run Unit test
         run: |
