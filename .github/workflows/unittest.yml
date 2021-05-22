@@ -20,7 +20,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirement.txt
-          cd Flask-backend
-          ./run
+          
       - name: Run tests with pytest
-        run: pytest 
+        run: |
+           cd Flask-backend
+           ./run
+           pytest 
