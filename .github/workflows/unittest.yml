@@ -24,6 +24,6 @@ jobs:
       - name: Run tests with pytest
         run: |
            cd Flask-backend
-           nohup.out ./run
+           nohup ./run
            sleep
            pytest 
