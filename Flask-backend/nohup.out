@@ -1,0 +1,663 @@
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 901-532-125
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+ * Detected change in '/Users/cheliang/Downloads/Flask_/Flask-backend/unit_test.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 901-532-125
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/usr/local/lib/python3.9/site-packages/werkzeug/serving.py", line 982, in run_simple
+    s.bind(server_address)
+OSError: [Errno 48] Address already in use
+127.0.0.1 - - [22/May/2021 13:10:21] "OPTIONS /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:21] "OPTIONS /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:21] "OPTIONS /detailedData-name HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:22] "GET /alldatasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:22] "GET /allmodels HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:22] "[35m[1mPOST /detailedData-name HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2069, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2054, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2051, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1501, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1499, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1485, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.9/site-packages/flask_cors/decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/cheliang/Downloads/Flask_/Flask-backend/app.py", line 629, in getNameForDetailedData
+    return json_util.dumps([detailed_data, metadata])
+UnboundLocalError: local variable 'detailed_data' referenced before assignment
+127.0.0.1 - - [22/May/2021 13:10:23] "POST /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:24] "POST /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:25] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:25] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:29] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:33] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:34] "OPTIONS /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:34] "OPTIONS /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:34] "GET /alldatasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:34] "GET /allmodels HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:34] "POST /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:10:35] "POST /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:05] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:05] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:07] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:24] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:25] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:31] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:31] "OPTIONS /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:31] "OPTIONS /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:31] "GET /alldatasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:31] "GET /allmodels HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:31] "POST /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:32] "POST /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:45] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:13:45] "POST /login HTTP/1.1" 200 -
+ * Detected change in '/Users/cheliang/Downloads/Flask_/Flask-backend/app.py', reloading
+username get:  None
+detailed data:  ex_fdy.dat
+detailed data:  None
+[
+  {
+    "FileName": "ex_ndy.dat",
+    "Description": "Amazon DocumentDB is a non-relational database service designed from the ground-up",
+    "UserName": "123456@qq.com"
+  },
+  {
+    "FileName": "ex_ndy3.dat",
+    "Description": "ex_ndy3.dat",
+    "UserName": "123456@qq.com"
+  },
+  {
+    "FileName": "ex_fdy.dat",
+    "Description": "",
+    "UserName": "123@gmail.com"
+  },
+  {
+    "FileName": "ex_fts.dat",
+    "Description": "",
+    "UserName": "123@gmail.com"
+  },
+  {
+    "FileName": "copy(1)_ex_ndy.txt",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "ex_ndy.csv",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "ex_fts.dat",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "copy(1)_ex_ndy.csv",
+    "Description": "",
+    "UserName": "jwan"
+  }
+]
+[
+  {
+    "_id": {
+      "$oid": "609b638b10d1cb48f68de04e"
+    },
+    "uuid": "f3a07a1b430c4a5784766ee967dece1f",
+    "FileName": "Test1.cod",
+    "BriefInfo": "1312231",
+    "Size": "4.229KB",
+    "UserName": "123456@qq.com",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "609eefe7440ea10bdd8a7119"
+    },
+    "uuid": "96fb0227497a48e7b7d6f12d3db0a87f",
+    "FileName": "Test2.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "123456@qq.com",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a49df46de22f7be94a9f2a"
+    },
+    "uuid": "c5c964af9ec84c9996366afd4dab8677",
+    "FileName": "ex.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a49dff6de22f7be94a9f2b"
+    },
+    "uuid": "a12d0c16a5bf434b800e41b6320b6445",
+    "FileName": "copy(1)_ex.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 1
+  },
+  {
+    "_id": {
+      "$oid": "60a49f326de22f7be94a9f2d"
+    },
+    "uuid": "342d9718d8574d2f94bf4303aa74d9ef",
+    "FileName": "ex -test1.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 0
+  }
+]
+0
+The user does not have any file
+{'username': '321@gmail.com', 'password': '123456'}
+None
+{'username': '123@gmail.com', 'password': '123456'}
+{'_id': '0b6bb3c534294fb6a544f4ed44604723', 'password': '$pbkdf2-sha256$29000$AQBgjFFqrVXq3du7d865Fw$avke3fnDBvz23V.TuguIVl2kP5uzXbjaeY2krpcdm5Y', 'UserName': '123@gmail.com', 'question': 'What is your favorite movie?', 'answer': 'VVS'}
+{'username': '123@gmail.com', 'password': '12345678'}
+{'_id': '0b6bb3c534294fb6a544f4ed44604723', 'password': '$pbkdf2-sha256$29000$AQBgjFFqrVXq3du7d865Fw$avke3fnDBvz23V.TuguIVl2kP5uzXbjaeY2krpcdm5Y', 'UserName': '123@gmail.com', 'question': 'What is your favorite movie?', 'answer': 'VVS'}
+Login Sucessfully
+username get:  123@gmail.com
+[
+  {
+    "FileName": "ex_ndy.dat",
+    "Description": "Amazon DocumentDB is a non-relational database service designed from the ground-up",
+    "UserName": "123456@qq.com"
+  },
+  {
+    "FileName": "ex_ndy3.dat",
+    "Description": "ex_ndy3.dat",
+    "UserName": "123456@qq.com"
+  },
+  {
+    "FileName": "ex_fdy.dat",
+    "Description": "",
+    "UserName": "123@gmail.com"
+  },
+  {
+    "FileName": "ex_fts.dat",
+    "Description": "",
+    "UserName": "123@gmail.com"
+  },
+  {
+    "FileName": "copy(1)_ex_ndy.txt",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "ex_ndy.csv",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "ex_fts.dat",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "copy(1)_ex_ndy.csv",
+    "Description": "",
+    "UserName": "jwan"
+  }
+]
+[
+  {
+    "_id": {
+      "$oid": "609b638b10d1cb48f68de04e"
+    },
+    "uuid": "f3a07a1b430c4a5784766ee967dece1f",
+    "FileName": "Test1.cod",
+    "BriefInfo": "1312231",
+    "Size": "4.229KB",
+    "UserName": "123456@qq.com",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "609eefe7440ea10bdd8a7119"
+    },
+    "uuid": "96fb0227497a48e7b7d6f12d3db0a87f",
+    "FileName": "Test2.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "123456@qq.com",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a49df46de22f7be94a9f2a"
+    },
+    "uuid": "c5c964af9ec84c9996366afd4dab8677",
+    "FileName": "ex.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a49dff6de22f7be94a9f2b"
+    },
+    "uuid": "a12d0c16a5bf434b800e41b6320b6445",
+    "FileName": "copy(1)_ex.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 1
+  },
+  {
+    "_id": {
+      "$oid": "60a49f326de22f7be94a9f2d"
+    },
+    "uuid": "342d9718d8574d2f94bf4303aa74d9ef",
+    "FileName": "ex -test1.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 0
+  }
+]
+0
+The user does not have any file
+{'username': '123', 'password': '123'}
+None
+{'username': '123', 'password': '123'}
+None
+{'username': '123@gmail.com', 'password': '123'}
+{'_id': '0b6bb3c534294fb6a544f4ed44604723', 'password': '$pbkdf2-sha256$29000$AQBgjFFqrVXq3du7d865Fw$avke3fnDBvz23V.TuguIVl2kP5uzXbjaeY2krpcdm5Y', 'UserName': '123@gmail.com', 'question': 'What is your favorite movie?', 'answer': 'VVS'}
+{'username': '123@gmail.com', 'password': '12345678'}
+{'_id': '0b6bb3c534294fb6a544f4ed44604723', 'password': '$pbkdf2-sha256$29000$AQBgjFFqrVXq3du7d865Fw$avke3fnDBvz23V.TuguIVl2kP5uzXbjaeY2krpcdm5Y', 'UserName': '123@gmail.com', 'question': 'What is your favorite movie?', 'answer': 'VVS'}
+Login Sucessfully
+username get:  123@gmail.com
+[
+  {
+    "FileName": "ex_ndy.dat",
+    "Description": "Amazon DocumentDB is a non-relational database service designed from the ground-up",
+    "UserName": "123456@qq.com"
+  },
+  {
+    "FileName": "ex_ndy3.dat",
+    "Description": "ex_ndy3.dat",
+    "UserName": "123456@qq.com"
+  },
+  {
+    "FileName": "ex_fdy.dat",
+    "Description": "",
+    "UserName": "123@gmail.com"
+  },
+  {
+    "FileName": "ex_fts.dat",
+    "Description": "",
+    "UserName": "123@gmail.com"
+  },
+  {
+    "FileName": "copy(1)_ex_ndy.txt",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "ex_ndy.csv",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "ex_fts.dat",
+    "Description": "",
+    "UserName": "jwan"
+  },
+  {
+    "FileName": "copy(1)_ex_ndy.csv",
+    "Description": "",
+    "UserName": "jwan"
+  }
+]
+[
+  {
+    "_id": {
+      "$oid": "609b638b10d1cb48f68de04e"
+    },
+    "uuid": "f3a07a1b430c4a5784766ee967dece1f",
+    "FileName": "Test1.cod",
+    "BriefInfo": "1312231",
+    "Size": "4.229KB",
+    "UserName": "123456@qq.com",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "609eefe7440ea10bdd8a7119"
+    },
+    "uuid": "96fb0227497a48e7b7d6f12d3db0a87f",
+    "FileName": "Test2.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "123456@qq.com",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a49df46de22f7be94a9f2a"
+    },
+    "uuid": "c5c964af9ec84c9996366afd4dab8677",
+    "FileName": "ex.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a49dff6de22f7be94a9f2b"
+    },
+    "uuid": "a12d0c16a5bf434b800e41b6320b6445",
+    "FileName": "copy(1)_ex.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 1
+  },
+  {
+    "_id": {
+      "$oid": "60a49f326de22f7be94a9f2d"
+    },
+    "uuid": "342d9718d8574d2f94bf4303aa74d9ef",
+    "FileName": "ex -test1.cod",
+    "BriefInfo": "",
+    "Size": "4.229KB",
+    "UserName": "jwan",
+    "copy": 0
+  }
+]
+0
+The user does not have any file
+{'username': '321@gmail.com', 'password': '12312312312'}
+None
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 901-532-125
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 901-532-125
+127.0.0.1 - - [22/May/2021 13:29:59] "OPTIONS /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:29:59] "OPTIONS /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:30:00] "GET /allmodels HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:30:00] "GET /alldatasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:30:01] "POST /modelFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:30:01] "POST /datasetFiles HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:30:03] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:30:04] "POST /login HTTP/1.1" 200 -
+./run: line 1:   984 Killed: 9               FLASK_APP=app.py FLASK_ENV=development flask run
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 901-532-125
+127.0.0.1 - - [22/May/2021 13:40:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:40:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:40:33] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:40:33] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:40:53] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:40:53] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:40:54] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:40:54] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:06] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:06] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:06] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:06] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:18] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:19] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:19] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:41:20] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:31] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:31] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:45] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:45] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:45] "POST /sign-up HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2021 13:50:45] "POST /sign-up HTTP/1.1" 200 -
+./run: line 1:  1171 Killed: 9               FLASK_APP=app.py FLASK_ENV=development flask run
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-247-874
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-247-874
+127.0.0.1 - - [22/May/2021 14:14:11] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [22/May/2021 14:14:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+nohup: pytho: No such file or directory
+  File "app.py", line 328
+SyntaxError: Non-ASCII character '\xef' in file app.py on line 328, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-247-874
+127.0.0.1 - - [22/May/2021 15:14:44] "[37mOPTIONS /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:14:46] "[37mPOST /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:14:47] "[37mPOST /login HTTP/1.1[0m" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-247-874
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-247-874
+127.0.0.1 - - [22/May/2021 15:21:16] "[37mOPTIONS /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:21:18] "[37mPOST /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:21:19] "[37mPOST /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:21:19] "[37mPOST /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:21:19] "[37mPOST /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:21:20] "[37mPOST /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:21:22] "[37mOPTIONS /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:21:22] "[37mPOST /login HTTP/1.1[0m" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "app.py", line 1550, in <module>
+    app.run(debug=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 48] Address already in use
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "app.py", line 1550, in <module>
+    app.run(debug=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 48] Address already in use
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-247-874
+127.0.0.1 - - [22/May/2021 15:22:41] "[37mOPTIONS /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:22:43] "[37mPOST /login HTTP/1.1[0m" 200 -
+127.0.0.1 - - [22/May/2021 15:22:44] "[37mPOST /login HTTP/1.1[0m" 200 -
+{'username': '321@gmail.com', 'password': '1234'}
+{'username': '321@gmail.com', 'password': '1234'}
+None
+None
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-247-874
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/usr/local/lib/python3.9/site-packages/werkzeug/serving.py", line 982, in run_simple
+    s.bind(server_address)
+OSError: [Errno 48] Address already in use
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1062, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1668, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/click/core.py", line 763, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/flask/cli.py", line 849, in run_command
+    run_simple(
+  File "/usr/local/lib/python3.9/site-packages/werkzeug/serving.py", line 982, in run_simple
+    s.bind(server_address)
+OSError: [Errno 48] Address already in use
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 901-532-125

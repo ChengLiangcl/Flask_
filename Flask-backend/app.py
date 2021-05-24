@@ -1444,6 +1444,20 @@ def queryAllDatasets():
         data = []
     return json.dumps(loads(dumps(data)))
 
+@app.route('/a', methods=["POST"])
+@cross_origin()
+def aaaa():
+    tester = app.test_client()
+    data = data = {'username': '123@qq.com', 'password': '12345678'}
+    response = tester.post(
+        '/a',
+        data = data
+
+    )
+    return str(response.data)
+
+
+
 
 # to query datasets based on the dataset name or key words
 @app.route('/query-all-models', methods=["POST"])
